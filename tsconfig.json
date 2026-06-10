@@ -4,6 +4,10 @@
               "module": "ESNext",
                   "moduleResolution": "bundler",
                       "strict": true,
-                          "skipLibCheck": true
-                            }
-                            }
+                          "skipLibCheck": true,
+                              "lib": ["ESNext", "DOM", "DOM.Iterable"],
+                                  "noEmit": true
+                                    },
+                                      "include": ["main.ts"]
+                                      }
+
