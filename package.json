@@ -1,0 +1,19 @@
+{
+      "name": "arc-wallet",
+        "private": true,
+          "type": "module",
+            "scripts": {
+                "dev": "vite",
+                    "build": "vite build",
+                        "preview": "vite preview"
+                          },
+                            "dependencies": {
+                                "@circle-fin/app-kit": "latest",
+                                    "@circle-fin/adapter-viem-v2": "latest",
+                                        "viem": "latest"
+                                          },
+                                            "devDependencies": {
+                                                "typescript": "latest",
+                                                    "vite": "latest"
+                                                      }
+                                                      }
